@@ -2,7 +2,7 @@
 
 ### Brief
 -----
-i have given  python files for the query model and a static folder and templates folder .The static folder contains css files while the templates folder containes html files for both the content and the query.The model is taken from https://github.com/UKPLab/sentence-transformers and the model was remotely placed in a model folder and the pretrained model parameters was downloaded from 
+i have given  python files for the query model and a static folder and templates folder .The static folder contains css files while the templates folder containes html files for both the content and the query.The model is taken from https://github.com/UKPLab/sentence-transformers and the model was remotely placed in a model folder and the pretrained model parameters was downloaded from.The project report can be acceses from <a href="https://github.com/git-add-akshay/NLP-search-engine-using-BERT/blob/master/MODEL%20REPORT.pdf"> MODEL REPORT </a>
 
 
 
