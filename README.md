@@ -6,7 +6,7 @@ i have given  python files for the query model and a static folder and templates
 
 
 
-#model 
+# model 
 The files for the textrank + T5 text summarizer + BERT embedding model by Akshay are:
 1. data_provider_2
 2. api_2
@@ -35,7 +35,7 @@ Setup Instructions for content query
     19. pip3 install transformers
     20.pip3 install --upgrade gensim
 
-#for the content query 
+# for the content query 
 
 Build Question Model
 -------------
