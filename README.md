@@ -12,8 +12,9 @@ The files for the textrank + T5 text summarizer + BERT embedding model by Akshay
 2. api_2
 3. model_summarizer
 
-###Setup Instructions for content query
+### Setup Instructions for content query
 -------------------------------------------------
+```
     1. First installed pip3 and pip sudo apt-get install python3-pip
     2. then my first action was to make python version to 3.6 since it was necessary to run pytorch and sentence_transformers library hence I decided to install python3.6 .But python 3.6 wasnt readily available to ubuntu 16.04 hence i instaled it by a indiect method
     3. sudo apt-get install software-properties-common
@@ -34,7 +35,7 @@ The files for the textrank + T5 text summarizer + BERT embedding model by Akshay
     18. pip3 install BeautifulSoup4
     19. pip3 install transformers
     20.pip3 install --upgrade gensim
-
+```
 ### for the content query 
 
 ### Build Question Model
@@ -51,19 +52,14 @@ mysql.connector.connect(host='localhost',
 
 ### Build Content Model
 -------------
-#this is only for model
+#### this is only for model
 after running data_provider_2.py run model_and_summarizer.py which would create summary_content.csv which has the summary for all the text and then it also creates a embedding for the article summary and saves it in a file called sentence_encoder_content.Currently it gives a summary for all the articles and it takes 3 hours in GPU so if any new articles are added please do the summary only for those and add it and dont run it again.
 run the model embedding after that.
 then it created another file called summary_content.csv
 
 ### Running API Server
 ---------------
-#for model_1
-run the api_1.py and set the server accordingly to local host or any other server.running it will take around 30 seconds and after that displaying the results will take around 3-5 seconds.
-make sure the following files are made before running
-1. dict_file_sentence_wise_with_embedding
-2. summary_content.csv
-#for model_2
+#### for model
 run the api_2.py and set the server accordingly to local host or any other server.running it will take around 30 seconds and after that displaying the results will take around 3-5 seconds.
 1. summary_content.csv
 2. sentence_encoder_content
